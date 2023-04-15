@@ -1,4 +1,5 @@
-# FEVM Hardhat Kit
+# FML with FEVM Workshop
+
 
 ## Cloning the Repo
 
@@ -6,7 +7,7 @@ Open up your terminal (or command prompt) and navigate to a directory you would 
 
 
 ```
-git clone --recurse-submodules https://github.com/filecoin-project/fevm-hardhat-kit.git
+git clone --
 cd fevm-hardhat-kit
 yarn install
 ```
