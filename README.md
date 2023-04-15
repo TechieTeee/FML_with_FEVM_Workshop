@@ -1,13 +1,20 @@
 # FML with FEVM Workshop
+This workshop will have two main parts: 1) Developing the federated machine learning model and 2) Creating the Model Service Smart Contract for FEVM and Deploying It.
+
+Please go to this link to run part 1 of the workshop. I also created a folder with the Juypter notenook, if you would like to explore it in your local environment. However, without using the Google Colab environment, you will miss out on some key benefits like increased GPU access and a lot the dependicies being installed by default. For the second part of the workshop, please follow the usual directions for deploying to FEVM that were updated for this project below. Let's get hacking!
 
 
+# Part 1: Creating the Federated Machine Learning Model
+
+
+# Part 2: Creating the Model Service and Deploying to FEVM
 ## Cloning the Repo
 
-Open up your terminal (or command prompt) and navigate to a directory you would like to store this code on. Once there type in the following command:
+Open up your terminal (or command prompt) and navigate to a directory you would like to store this code on. For running the project virtually, fork the repo and consider trying out Gipod. To run it locally, try out popular options like VS Codeo or IntelliJ. IntelliJ is my favorite. Once there type in the following command:
 
 
 ```
-git clone --
+git clone -- https://github.com/TechieTeee/FML_with_FEVM_Workshop.git
 cd fevm-hardhat-kit
 yarn install
 ```
@@ -28,6 +35,8 @@ Add your private key as an environment variable by running this command:
  ```
 export PRIVATE_KEY='abcdef'
 ```
+
+You can also do this manually by creating a .env file, and then adding the info. Please don't forget to add .env to git ignore to protect your private key.
 
 If you use a .env file, don't commit and push any changes to .env files that may contain sensitive information, such as a private key! If this information reaches a public GitHub repository, someone can use it to check if you have any Mainnet funds in that wallet address, and steal them!
 
