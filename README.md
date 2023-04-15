@@ -1,10 +1,11 @@
 # Federated Machine Learning with Filecoin Ethereum Runtime Virtual Machine Workshop
 This workshop will have two main parts: 1) Developing the federated machine learning model and 2) Creating the Model Service Smart Contract for FEVM and Deploying It.
 
-Please go to this link to run part 1 of the workshop. I also created a folder with the Juypter notenook, if you would like to explore it in your local environment. However, without using the Google Colab environment, you will miss out on some key benefits like increased GPU access and a lot the dependicies being installed by default. For the second part of the workshop, please follow the usual directions for deploying to FEVM that were updated for this project below. Let's get hacking!
+Please [go to this link](https://colab.research.google.com/drive/1wSGDNEZfkuAkkOS1wvVXk5mzoLadrcNU?usp=sharing) to run part 1 of the workshop. I also created a folder with the Juypter notenook, if you would like to explore it in your local environment. However, without using the Google Colab environment, you will miss out on some key benefits like increased GPU access and a lot the dependicies being installed by default. For the second part of the workshop, please follow the usual directions for deploying to FEVM that were updated for this project below. Let's get hacking!
 
 
 # Part 1: Creating the Federated Machine Learning Model
+Please go to the Google Colab link and we will walk through the developing the FML model in the worksop.
 
 
 # Part 2: Creating the Model Service and Deploying to FEVM
