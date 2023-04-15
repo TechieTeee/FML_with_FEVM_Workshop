@@ -1,3 +1,5 @@
+![neil-soni-6wdRuK7bVTE-unsplash](https://user-images.githubusercontent.com/100870737/232185149-4ab41585-f954-4e4c-bbfb-5ba60699960c.jpg)
+
 # Federated Machine Learning with Filecoin Ethereum Runtime Virtual Machine Workshop
 This workshop will have two main parts: 1) Developing the federated machine learning model and 2) Creating the Model Service Smart Contract for FEVM and Deploying It.
 
