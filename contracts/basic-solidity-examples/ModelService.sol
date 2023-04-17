@@ -1,18 +1,18 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-contract ModelService {
-    bytes public modelBytecode;
+interface Model {
+    function predict(bytes memory input) external returns (bytes memory);
+}
 
-    function deployModel() public returns (address) {
-        bytes memory bytecode = modelBytecode;
-        address modelAddress;
-        assembly {
-            modelAddress := create(0, add(bytecode, 0x20), mload(bytecode))
-            if iszero(extcodesize(modelAddress)) {
-                revert(0, 0)
-            }
-        }
-        return modelAddress;
+contract ModelService {
+    Model public deployedModel;
+
+    constructor(address modelAddress) {
+        deployedModel = Model(modelAddress);
+    }
+
+    function predict(bytes memory input) public returns (bytes memory) {
+        return deployedModel.predict(input);
     }
 }
